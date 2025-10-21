@@ -1,0 +1,73 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom/Override styles for react-slick */
+
+/* Dot Styling */
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•'; /* THIS IS THE KEY PART */
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #f97316; /* Active dot color (orange-500) */
+    opacity: 1; /* Fully opaque when active */
+}
+
+/* Fix for scattering issues - these are often critical */
+.slick-list {
+    overflow: hidden;
+    /* Important: Sometimes padding on slick-list can cause issues, ensure it's removed */
+    padding: 0 !important;
+}
+
+.slick-track {
+    display: flex; /* Essential for horizontal alignment */
+    /* Remove any margins that might cause misalignment, slick calculates its own */
+    margin: 0 !important;
+}
+
+.slick-slide {
+    float: left; /* Fallback for older browsers or if flex breaks */
+    height: auto; /* Allow height to adjust based on content */
+    min-height: 1px; /* Prevents collapse */
+    /* Ensure no unwanted spacing or box-model issues */
+    margin: 0;
+    padding: 0;
+}
+
+/* Optional: If arrows are still not visible or styled */
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick'; /* Ensure font-family for arrows */
+    font-size: 24px;
+    line-height: 1; /* Default line-height for arrows */
+    opacity: 0.75; /* Adjust opacity */
+    color: #f97316; /* Orange color for arrows */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide default arrows if you set arrows: false in settings */
+/* Although with arrows: false, these should not be visible anyway */
+.slick-arrow {
+    display: none !important;
+}

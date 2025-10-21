@@ -1,0 +1,20 @@
+
+/* Initial state: hidden and slightly moved */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px); /* Adjust as needed for slide-up effect */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+  will-change: opacity, transform; /* Optimize for animation */
+}
+
+/* Visible state: fully opaque and in original position */
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Optional: Different delays for staggered animations */
+.animate-on-scroll.delay-1 { transition-delay: 0.1s; }
+.animate-on-scroll.delay-2 { transition-delay: 0.2s; }
+.animate-on-scroll.delay-3 { transition-delay: 0.3s; }
+/* Add more as needed */
