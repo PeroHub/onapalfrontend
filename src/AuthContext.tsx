@@ -76,7 +76,7 @@ export const AuthProvider: React.FC<PropsWithChildren> = ({ children }) => {
     }
     try {
       const response: Response = await fetch(
-        "https://itekconstruction.onrender.com/api/auth/me",
+        "https://onapalbackend.onrender.com/api/auth/me",
         {
           headers: {
             "x-auth-token": authToken,

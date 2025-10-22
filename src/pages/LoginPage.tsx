@@ -34,6 +34,7 @@ const LoginPage = () => {
       const data = await response.json();
       if (response.ok) {
         console.log(data.token);
+        // localStorage.setItem("adminToken", data.token);
         auth?.login(data.token);
         // if (login) {
         //   login(data.token);
