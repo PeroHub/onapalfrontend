@@ -119,7 +119,7 @@ const AboutPage: React.FC = () => {
       <section className="py-20 bg-gradient-to-br from-teal-500 to-teal-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-2xl md:text-5xl font-bold mb-6">
+            <h1 className="text-xl md:text-2xl font-bold mb-6">
               About ONA-PAL Global Resources Limited
             </h1>
             <p className="text-sm max-w-3xl mx-auto leading-relaxed">
@@ -138,10 +138,10 @@ const AboutPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">
                 Our Story
               </h2>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-gray-600 mb-6 text-sm leading-relaxed">
                 {/* <p className="font-bold">Humble Beginnings</p>
                  */}
                 ONA-PAL GLOBAL RESOURCES LTD the company is skillful positioned
@@ -152,7 +152,7 @@ const AboutPage: React.FC = () => {
                 provision of qualitative, timely and cost Effective services
                 with special emphasison engineering projects.
               </p>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-gray-600 mb-6 text-sm  leading-relaxed">
                 {/* <p className="font-bold">Perseverance and Hard Work</p> */}
                 ONA-PAL GLOBAL RESOURCES LTD was established to focus on civil
                 engineering infrastructural development, Construction services,
@@ -160,7 +160,7 @@ const AboutPage: React.FC = () => {
                 services. We are a technical and renowned company with a global
                 tint since inception in 1991.
               </p>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-gray-600 mb-6 text-sm  leading-relaxed">
                 {/* <p className="font-bold">Innovative Solutions</p> */}
                 Our company is licensed to perform projects of unlimited scopes
                 especially in developing areas. The company focuses on complex
@@ -169,7 +169,7 @@ const AboutPage: React.FC = () => {
                 manpower in order to achieve the highest quality implementation
                 for different projects.
               </p>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-gray-600 mb-6 text-sm leading-relaxed">
                 {/* <p className="font-bold">Growth and Expansion</p> */}
                 The company places an emphasis on quality of construction,
                 meticulous investigation and self-evaluation processes,
@@ -178,7 +178,7 @@ const AboutPage: React.FC = () => {
                 like planning, management, production and implementation to
                 project completion stage
               </p>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-gray-600 mb-6 text-sm  leading-relaxed">
                 {/* <p className="font-bold">Awards and Recognition</p> */}A
                 team of hundreds of professional employees and subcontractors
                 dedicated to projects through all stages of implementation.
@@ -187,7 +187,7 @@ const AboutPage: React.FC = () => {
                 helped grow local economies and improve the quality of life for
                 communities and people around the world.
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed text-sm ">
                 {/* <p className="font-bold">Legacy and Impact:</p> */}
                 Time and again our work has demonstrated that the only limits on
                 human achievement are those that we place on ourselves
@@ -209,10 +209,10 @@ const AboutPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="bg-white p-8 rounded-xl shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
                 Our Mission
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 To provide quality services of the highest professional
                 standards in the construction of property and real estate
                 business and in accompanying same we seek to develop and acquire
@@ -224,10 +224,10 @@ const AboutPage: React.FC = () => {
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
                 Our Vision
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 To be a formidable player in the construction market within the
                 Lagos metropolitan area, a reliable partner that offers its
                 clients the best possible working/living environments, To design
@@ -244,10 +244,10 @@ const AboutPage: React.FC = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Our Values
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-md text-gray-600 max-w-3xl mx-auto">
               The principles that guide everything we do and shape our approach
               to road construction.
             </p>
@@ -262,10 +262,10 @@ const AboutPage: React.FC = () => {
                 <div className="flex justify-center mb-4">
                   <value.icon className="h-12 w-12 text-teal-500" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">
                   {value.title}
                 </h3>
-                <p className="text-gray-600">{value.description}</p>
+                <p className="text-gray-600 text-sm">{value.description}</p>
               </div>
             ))}
           </div>
@@ -276,10 +276,10 @@ const AboutPage: React.FC = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Our Journey
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-md text-gray-600 max-w-3xl mx-auto">
               Key milestones in our growth and development as Nigeria's trusted
               road construction partner.
             </p>
@@ -310,14 +310,14 @@ const AboutPage: React.FC = () => {
                         : "lg:pl-8 text-left"
                     } ml-8 lg:ml-0`}
                   >
-                    <div className="bg-white p-6 rounded-xl shadow-lg">
-                      <div className="text-teal-500 font-bold text-lg mb-2">
+                    <div className="bg-white p-4 rounded-xl shadow-lg">
+                      <div className="text-teal-500 font-bold text-md mb-1">
                         {milestone.year}
                       </div>
-                      <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                      <h3 className="text-md font-semibold text-gray-900 mb-1">
                         {milestone.title}
                       </h3>
-                      <p className="text-gray-600">{milestone.description}</p>
+                      <p className="text-gray-600 text-xs">{milestone.description}</p>
                     </div>
                   </div>
 
@@ -340,10 +340,10 @@ const AboutPage: React.FC = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Leadership Team
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-md text-gray-600 max-w-3xl mx-auto">
               Meet the experienced professionals leading ONA-PAL Global
               Resources Limitedto new heights.
             </p>
@@ -360,10 +360,10 @@ const AboutPage: React.FC = () => {
                   alt={leader.name}
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-md font-semibold text-gray-900 mb-2">
                   {leader.name}
                 </h3>
-                <p className="text-teal-500 font-bold mb-3">
+                <p className="text-teal-500 text-xs font-bold mb-3">
                   {leader.position}
                 </p>
                 <p className="text-gray-600">{leader.description}</p>
@@ -375,8 +375,8 @@ const AboutPage: React.FC = () => {
 
       <section className=" bg-white">
         <div className="max-w-10xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Certificates
             </h2>
           </div>
@@ -406,14 +406,14 @@ const AboutPage: React.FC = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-teal-500 to-teal-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Build with Us?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
+          <h2 className="text-2xl font-bold mb-6">Ready to Build with Us?</h2>
+          <p className="text-md mb-8 max-w-2xl mx-auto">
             Join the hundreds of satisfied clients who have trusted ONA-PAL Global Resources Limited with their road infrastructure projects.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-teal-500 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300"
+              className="inline-flex text-sm items-center justify-center px-8 py-4 bg-white text-teal-500 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300"
             >
               Get Started Today
             </a>

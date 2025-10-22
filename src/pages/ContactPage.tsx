@@ -10,8 +10,8 @@ const ContactPage: React.FC = () => {
       <section className="py-20 bg-gradient-to-br from-teal-500 to-teal-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
-            <p className="text-xl max-w-3xl mx-auto leading-relaxed">
+            <h1 className="text-3xl font-bold mb-2">Contact Us</h1>
+            <p className="text-lg max-w-3xl mx-auto leading-relaxed">
               Ready to start your road construction project? Get in touch with
               our expert team for a free consultation and detailed quote.
             </p>
@@ -27,10 +27,10 @@ const ContactPage: React.FC = () => {
               {" "}
               {/* Added lg:col-span-1 for explicit layout */}
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                <h2 className="text-xl font-bold text-gray-900 mb-4">
                   Get in Touch
                 </h2>
-                <p className="text-gray-600 text-lg mb-8">
+                <p className="text-gray-600 text-md mb-8">
                   We're here to help bring your road construction vision to
                   life. Contact us through any of the channels below or visit
                   our offices.
@@ -40,24 +40,24 @@ const ContactPage: React.FC = () => {
               <div className="space-y-6">
                 {/* Head Office */}
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                  <h3 className="text-md font-semibold text-gray-900 mb-4 flex items-center">
                     <MapPin className="h-5 w-5 text-teal-500 mr-2" />
                     Head Office - Abia
                   </h3>
-                  <div className="space-y-2 text-gray-600">
+                  <div className="space-y-2 text-gray-600 text-sm">
                     <p>No. 1, Nnono Oboro Ikwuano Abia State, Nigeria</p>
                     <div className="flex items-center">
                       <Phone className="h-4 w-4 text-teal-500 mr-2" />
                       <a
                         href="tel:+2348065438080"
-                        className="hover:text-teal-500"
+                        className="hover:text-teal-500 text-sm"
                       >
                         +234 806 512 2463
                       </a>
                     </div>
                     <div className="flex items-center">
                       <Clock className="h-4 w-4 text-orange-teal mr-2" />
-                      <span>Mon - Fri: 8:00 AM - 6:00 PM</span>
+                      <span className="text-sm">Mon - Fri: 8:00 AM - 6:00 PM</span>
                     </div>
                   </div>
                 </div>
@@ -91,20 +91,20 @@ const ContactPage: React.FC = () => {
               </div>
               {/* Quick Contact */}
               <div className="bg-teal-50 p-6 rounded-xl">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                <h3 className="text-md font-semibold text-gray-900 mb-4">
                   Quick Contact
                 </h3>
                 <div className="space-y-3">
                   <a
                     href="tel:+2348065438080"
-                    className="flex items-center text-teal-600 hover:text-teal-700 transition-colors"
+                    className="flex items-center text-sm text-teal-600 hover:text-teal-700 transition-colors"
                   >
                     <Phone className="h-5 w-5 mr-3" />
                     Call Us: +234 806 512 2463 , +234 902 888 8797
                   </a>
                   <a
                     href="mailto:info@itekconstruction.com"
-                    className="flex items-center text-teal-600 hover:text-teal-700 transition-colors"
+                    className="flex items-center text-sm text-teal-600 hover:text-teal-700 transition-colors"
                   >
                     <Mail className="h-5 w-5 mr-3" />
                     Email: onapalconstructionltd@gmail.com
@@ -117,7 +117,7 @@ const ContactPage: React.FC = () => {
             <div className="lg:col-span-1 space-y-8">
               {" "}
               {/* Added lg:col-span-1 for explicit layout */}
-              <h2 className="text-3xl font-bold text-gray-900 mb-8 lg:mb-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-8 lg:mb-6">
                 Our Locations
               </h2>{" "}
               {/* Adjusted margin for better spacing */}

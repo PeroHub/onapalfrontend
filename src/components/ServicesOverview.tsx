@@ -55,10 +55,10 @@ const ServicesOverview: React.FC = () => {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
             Our Services
           </h2>
-          <p className="text-sm md:text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-sm md:text-md text-gray-600 max-w-3xl mx-auto">
             From highways to urban roads and bridges, we deliver comprehensive
             road construction solutions tailored to your infrastructure needs.
           </p>
@@ -78,17 +78,17 @@ const ServicesOverview: React.FC = () => {
                       className="w-full h-40 object-cover rounded-lg transform hover:scale-105 transition-transform duration-300"
                     />
                   </div>
-                  <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-3 text-center">
+                  <h3 className="text-sm md:text-md font-semibold text-gray-900 mb-3 text-center">
                     {service.title}
                   </h3>
-                  <p className="text-sm text-gray-600 mb-4 text-center flex-grow">
+                  <p className="text-xs text-gray-600 mb-4 text-center flex-grow">
                     {service.description}
                   </p>
                   <ul className="space-y-2 mt-auto">
                     {service.features.map((feature, idx) => (
                       <li
                         key={idx}
-                        className="text-sm text-gray-500 flex items-center"
+                        className="text-xs text-gray-500 flex items-center"
                       >
                         <div className="w-2 h-2 bg-teal-500 rounded-full mr-2"></div>
                         {feature}
@@ -104,7 +104,7 @@ const ServicesOverview: React.FC = () => {
         <div className="text-center">
           <Link
             to="/services"
-            className="inline-flex items-center px-8 py-4 bg-teal-500 text-white font-semibold rounded-lg hover:bg-teal-600 transition-all duration-300 hover:scale-105"
+            className="inline-flex text-sm items-center px-8 py-4 bg-teal-500 text-white font-semibold rounded-lg hover:bg-teal-600 transition-all duration-300 hover:scale-105"
           >
             View All Services
             <ArrowRight className="ml-2 h-5 w-5" />

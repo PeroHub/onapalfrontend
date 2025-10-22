@@ -116,8 +116,8 @@ const GalleryPage: React.FC = () => {
       <section className="py-20 bg-gradient-to-br from-teal-500 to-teal-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">Project Gallery</h1>
-            <p className="text-xl max-w-3xl mx-auto leading-relaxed">
+            <h1 className="text-3xl font-bold mb-6">Project Gallery</h1>
+            <p className="text-md max-w-3xl mx-auto leading-relaxed">
               Explore our portfolio of completed road construction projects
               showcasing our expertise in highways, urban roads, and bridge
               construction.
@@ -223,12 +223,12 @@ const GalleryPage: React.FC = () => {
                           </span>
                         )}
                         {project.title && (
-                          <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                          <h3 className="text-lg font-semibold text-gray-900 mb-2">
                             {project.title}
                           </h3>
                         )}
                         {project.description && (
-                          <p className="text-gray-600 line-clamp-3">
+                          <p className="text-gray-600 text-sm line-clamp-3">
                             {project.description}
                           </p>
                         )}
@@ -281,12 +281,12 @@ const GalleryPage: React.FC = () => {
                   </span>
                 )}
                 {selectedProject.title && (
-                  <h3 className="text-2xl font-semibold text-gray-900 mb-2">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     {selectedProject.title}
                   </h3>
                 )}
                 {selectedProject.description && (
-                  <p className="text-gray-600">{selectedProject.description}</p>
+                  <p className="text-gray-600 text-sm">{selectedProject.description}</p>
                 )}
               </div>
             </div>
