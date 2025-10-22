@@ -88,8 +88,8 @@ const ServicesPage: React.FC = () => {
       <section className="relative py-20 bg-gradient-to-br from-teal-500 to-teal-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">Our Services</h1>
-            <p className="text-xl max-w-3xl mx-auto leading-relaxed">
+            <h1 className="text-3xl font-bold mb-6">Our Services</h1>
+            <p className="text-md max-w-3xl mx-auto leading-relaxed">
               Comprehensive construction solutions tailored to meet your unique
               requirements. From concept to completion, we deliver excellence in
               every project.
@@ -117,17 +117,17 @@ const ServicesPage: React.FC = () => {
                   />
                 </div>
                 <div className={index % 2 === 1 ? "lg:col-start-1" : ""}>
-                  <h3 className="text-3xl font-bold text-gray-900 mb-4">
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+                  <p className="text-gray-600 mb-6 text-md leading-relaxed">
                     {service.description}
                   </p>
                   <ul className="space-y-3">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center">
-                        <CheckCircle className="h-5 w-5 text-teal-500 mr-3" />
-                        <span className="text-gray-700">{feature}</span>
+                        <CheckCircle className="h-4 w-4 text-teal-500 mr-3" />
+                        <span className="text-gray-700 text-sm">{feature}</span>
                       </li>
                     ))}
                   </ul>
@@ -142,10 +142,10 @@ const ServicesPage: React.FC = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Why Choose ONA-PAL Global?
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-md text-gray-600 max-w-3xl mx-auto">
               We combine extensive technical expertise with cutting-edge technology and an unwavering commitment to quality across engineering, construction, and resource solutions.
             </p>
           </div>
@@ -159,10 +159,10 @@ const ServicesPage: React.FC = () => {
                 <div className="flex justify-center mb-4">
                   <item.icon className="h-12 w-12 text-teal-500" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 text-center">
+                <h3 className="text-md font-semibold text-gray-900 mb-3 text-center">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 text-center">{item.description}</p>
+                <p className="text-gray-600 text-center text-sm">{item.description}</p>
               </div>
             ))}
           </div>
@@ -172,10 +172,10 @@ const ServicesPage: React.FC = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-teal-500 to-teal-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">
+          <h2 className="text-2xl font-bold mb-4">
             Ready to Start Your Project?
           </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
+          <p className="text-md mb-2 max-w-2xl mx-auto">
             Get in touch with our expert team today for a free consultation and
             detailed project quote.
           </p>
@@ -183,7 +183,7 @@ const ServicesPage: React.FC = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center cursor-pointer"
             onClick={handleWhatsAppClick}
           >
-            <a className="inline-flex items-center justify-center px-8 py-4 bg-white text-teal-500 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300">
+            <a className="inline-flex items-center text-sm justify-center px-8 py-4 bg-white text-teal-500 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300">
               Get Free Quote
             </a>
           </div>

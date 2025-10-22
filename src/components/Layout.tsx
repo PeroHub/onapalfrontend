@@ -49,7 +49,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   width={"50px"}
                   alt="logo"
                 />
-                <span className="text-xl font-bold text-gray-900">
+                <span className="text-sm md:text-lg font-bold text-gray-900">
                   ONA-PAL Global Resources Limited
                 </span>
               </Link>
@@ -81,7 +81,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     className="text-gray-500 hover:text-teal-400 transition-colors duration-200"
                     aria-label={social.name}
                   >
-                    <social.icon className="h-5 w-5" />
+                    <social.icon className="h-4 w-4" />
                   </a>
                 ))}
               </div>
@@ -172,11 +172,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   width={"30px"}
                   alt="logo"
                 />
-                <span className="text-xl font-bold">
+                <span className="text-sm md:text-lg font-bold">
                   ONA-PAL Global Resources Limited
                 </span>
               </div>
-              <p className="text-gray-300 mb-4">
+              <p className="text-gray-300 mb-4 text-sm">
                 Delivering comprehensive engineering, construction, and resource solutions, including Civil, Building, Electrical, Mechanical, Borehole Drilling, Water Treatment Plant installation, and Solar Street Light projects across Nigeria.
               </p>
               <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 mb-4">
@@ -184,13 +184,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 {/* Added flex-col for mobile stacking */}
                 <a
                   href="tel:+2348065438080"
-                  className="text-slate-500 hover:text-teal-400"
+                  className="text-slate-500 text-xs hover:text-teal-400"
                 >
                   +234 806 512 2463
                 </a>
                 <a
                   href="tel:+2348029006984"
-                  className="text-slate-500 hover:text-teal-400"
+                  className="text-slate-500 text-xs hover:text-teal-400"
                 >
                   +234 902 888 8797
                 </a>
@@ -208,15 +208,15 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     className="text-gray-400 hover:text-white transition-colors duration-200"
                     aria-label={social.name}
                   >
-                    <social.icon className="h-6 w-6" />
+                    <social.icon className="h-4 w-4" />
                   </a>
                 ))}
               </div>
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-4">Services</h3>
-              <ul className="space-y-2 text-gray-300">
+              <h3 className="text-md font-semibold mb-4">Services</h3>
+              <ul className="space-y-2 text-gray-300 text-xs">
                 <li>Civil Engineering</li>
                 <li>Building</li>
                 <li>Electrical</li>
@@ -230,17 +230,17 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-4">Locations</h3>
+              <h3 className="text-md font-semibold mb-4">Locations</h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <p className="font-medium">Head Office</p>
-                  <p className="text-sm">
+                  <p className="font-medium text-sm">Head Office</p>
+                  <p className="text-xs">
                     No. 1, Nnono Oboro Ikwuano Abia State, Nigeria
                   </p>
                 </div>
                 <div>
-                  <p className="font-medium">Branch Office</p>
-                  <p className="text-sm">
+                  <p className="font-medium text-sm">Branch Office</p>
+                  <p className="text-xs">
                     Uyo & Eket, Akwa Ibom State, Nigeria
                   </p>
                 </div>
@@ -249,7 +249,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>
+            <p className="text-sm">
               &copy; {new Date().getFullYear()} ONA-PAL Global Resources Limited. All rights reserved.
             </p>
           </div>

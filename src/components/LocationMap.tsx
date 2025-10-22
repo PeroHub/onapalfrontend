@@ -7,13 +7,13 @@ const LocationMap: React.FC = () => {
   // const uyoCords = "5.541496538791165, 7.496123853195312"; // Placeholder coordinates 5.018607770164809, 7.977030856878277
 
   return (
-    <section className="bg-gray-50 py-20">
+    <section className="bg-gray-50 py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 text-center">
-          <h2 className="mb-4 text-2xl font-bold text-gray-900 md:text-4xl">
+          <h2 className="mb-4 text-lg font-bold text-gray-900 md:text-2xl">
             Our Location
           </h2>
-          <p className="text-sm text-gray-600 md:text-lg">
+          <p className="text-sm text-gray-600">
             Visit our offices in Abia for road construction
             consultation and project discussions.
           </p>
@@ -35,16 +35,16 @@ const LocationMap: React.FC = () => {
               ></iframe>
             </div>
             <div className="p-6">
-              <h3 className="mb-4 flex items-center text-lg font-semibold text-gray-900 md:text-xl">
+              <h3 className="mb-4 flex items-center text-sm font-semibold text-gray-900 md:text-md">
                 <MapPin className="mr-2 h-5 w-5 text-teal-500" />
                 Head Office - Abia
               </h3>
               <div className="space-y-2">
-                <p className="text-sm text-gray-600 md:text-normal">
+                <p className="text-xs text-gray-600 md:text-normal">
                   No. 1, Nnono Oboro Ikwuano Abia State, Nigeria
                 </p>
                 <div className="flex items-center text-gray-600">
-                  <Phone className="mr-2 h-4 w-4 text-teal-500" />
+                  <Phone className="mr-2 h-2 w-4 text-teal-500" />
                   <span className="text-xs">+234 806 512 2463</span>
                 </div>
                 <div className="flex items-center text-gray-600">

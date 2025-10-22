@@ -5,11 +5,11 @@ import { ArrowRight } from "lucide-react";
 const HeroSection: React.FC = () => {
   // Array of construction site images
   const images = [
-    "/itekbridge9.jpg",
-    "/itekbridge10.jpg",
+    "/civilengineering.jpg",
+    "/electricalservices.jpg",
     "https://images.pexels.com/photos/2240767/pexels-photo-2240767.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop",
-    "/itekbridge8.jpg",
-    "/itekbridge11.jpg",
+    "/mechanicalservices.jpg",
+    "/solar.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
           />
         ))}
         {/* Dark overlay to ensure text readability */}
-        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
       </div>
 
       {/* Content */}
@@ -50,17 +50,17 @@ const HeroSection: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center">
           {" "}
           {/* Centered content */}
-          <h1 className="text-3xl md:text-6xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-xl md:text-3xl font-bold text-white mb-6 leading-tight">
             Building Roads,
             <span className="text-teal-500"> Creating Futures</span>
           </h1>
-          <p className="text-sm md:text-xl text-gray-200 mb-8 leading-relaxed">
+          <p className="text-sm md:text-lg text-gray-200 mb-8 leading-relaxed">
             ONA-PAL Global Resources Limited provides expert Civil Engineering, Building, Electrical, and Mechanical services. We specialize in Borehole Drilling, Water Treatment Plant, and Solar Street Light projects across Nigeria.
           </p>
           <div className="flex flex-col justify-center items-center sm:flex-row gap-4">
             <Link
               to="/contact"
-              className="inline-flex items-center justify-center px-8 py-4 bg-teal-500 text-white font-semibold rounded-lg hover:bg-teal-600 transition-all duration-300 hover:scale-105"
+              className="inline-flex text-sm items-center justify-center px-8 py-4 bg-teal-500 text-white font-semibold rounded-lg hover:bg-teal-600 transition-all duration-300 hover:scale-105"
             >
               Get Free Quote
               <ArrowRight className="ml-2 h-5 w-5" />

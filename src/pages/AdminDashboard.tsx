@@ -42,7 +42,7 @@ const AdminDashboard = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(8);
 
-  const API_BASE_URL = "https://itekconstruction.onrender.com/api/gallery";
+  const API_BASE_URL = "https://onapalbackend.onrender.com/api/gallery";
 
   useEffect(() => {
     if (auth && auth.token) {
@@ -350,18 +350,18 @@ const AdminDashboard = () => {
 
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
-          <h1 className="text-3xl font-extrabold text-gray-900 mb-4 md:mb-0">
+          <h1 className="text-xl font-extrabold text-gray-900 mb-4 md:mb-0">
             Admin Dashboard
           </h1>
           <div className="flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-6">
             {user && (
-              <span className="text-lg text-gray-700 font-medium">
+              <span className="text-md text-gray-700 font-medium">
                 Welcome, {user.email}!
               </span>
             )}
             <button
               onClick={logout}
-              className="px-6 py-2 bg-teal-600 text-white font-bold rounded-lg shadow-md hover:bg-teal-700 transition-colors duration-200"
+              className="px-4 py-2 text-xs bg-teal-600 text-white font-bold rounded-lg shadow-md hover:bg-teal-700 transition-colors duration-200"
             >
               Logout
             </button>
@@ -370,7 +370,7 @@ const AdminDashboard = () => {
 
         <button
           onClick={() => openModal()}
-          className="mb-8 px-6 py-2 bg-teal-600 text-white font-bold rounded-lg shadow-md hover:bg-teal-700 transition-colors duration-200"
+          className="mb-6 mt-4 px-6 py-2 text-sm bg-teal-600 text-white font-bold rounded-lg shadow-md hover:bg-teal-700 transition-colors duration-200"
         >
           Add New Gallery Item
         </button>
@@ -409,7 +409,7 @@ const AdminDashboard = () => {
                     />
                   )}
                   <div className="p-4">
-                    <h3 className="text-xl font-bold text-gray-900 mb-1">
+                    <h3 className="text-lg font-bold text-gray-900 mb-1">
                       {item.title || "No Title"}
                     </h3>
                     <p className="text-sm text-gray-600 mb-2">

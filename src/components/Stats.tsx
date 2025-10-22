@@ -34,10 +34,10 @@ const Stats: React.FC = () => {
               <div className="flex justify-center mb-4">
                 <stat.icon className="h-12 w-12 text-teal-500" />
               </div>
-              <div className="text-lg md:text-3xl font-bold text-gray-900 mb-2">
+              <div className="text-sm md:text-xl font-bold text-gray-900 mb-2">
                 {stat.value}
               </div>
-              <div className="text-sm md:text-lg text-gray-600">
+              <div className="text-sm md:text-md text-gray-600">
                 {stat.label}
               </div>
             </div>
