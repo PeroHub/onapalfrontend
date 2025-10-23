@@ -373,7 +373,8 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      <section className=" bg-white">
+      {/* Certificates */}
+      {/* <section className=" bg-white">
         <div className="max-w-10xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -401,7 +402,7 @@ const AboutPage: React.FC = () => {
             )}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-teal-500 to-teal-600 text-white">
