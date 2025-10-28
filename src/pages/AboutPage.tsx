@@ -82,13 +82,13 @@ const AboutPage: React.FC = () => {
 
   const awards = [
     {
-      image: "/certitek1.jpg",
+      image: "/onalcoporate.jpeg",
       name: "Corporate affairs",
     },
-    {
-      image: "/certitek2.jpg",
-      name: "firs",
-    },
+    // {
+    //   image: "/certitek2.jpg",
+    //   name: "firs",
+    // },
   ];
 
   const leadership = [
@@ -195,7 +195,7 @@ const AboutPage: React.FC = () => {
             </div>
             <div>
               <img
-                src="/itekoffice1.jpg"
+                src="/itekoffice2.jpg"
                 alt="Road construction project"
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
@@ -373,8 +373,8 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Certificates */}
-      {/* <section className=" bg-white">
+       {/* Certificates  */}
+       <section className=" bg-white">
         <div className="max-w-10xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -402,7 +402,7 @@ const AboutPage: React.FC = () => {
             )}
           </div>
         </div>
-      </section> */}
+      </section> 
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-teal-500 to-teal-600 text-white">
